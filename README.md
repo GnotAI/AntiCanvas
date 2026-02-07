@@ -27,7 +27,7 @@ A high-performance, real-time digital canvas built with React, Fabric.js, and Fi
 1. Create a project in [Firebase Console](https://console.firebase.google.com/).
 2. Enable **Anonymous Authentication** in the Auth section.
 3. Create a **Realtime Database** and set rules to allow read/write:
-   ```json
+  ```json
   {
     "rules": {
       "rooms_meta": {
